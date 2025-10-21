@@ -14,17 +14,7 @@ The submission incorporates several modern design and development practices to t
 
 ### Code and Structure Optimization
 
-*   **Semantic HTML5:** Replaced non-semantic div usage with structural tags (
-    
-    ,
-    
-    ,
-    
-    ,
-    
-    ,
-    
-    ) to improve accessibility and SEO.
+*   **Semantic HTML5:** Replaced non-semantic div usage with structural tags (<header>, <nav>, <main>, <section>, <footer>) to improve accessibility and SEO.
     
 *   **Separation of Concerns:** All styling was externalized to assets/css/style.css, ensuring the HTML file remains clean, modular, and easy to maintain.
     
