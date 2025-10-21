@@ -55,7 +55,7 @@ The submission incorporates several modern design and development practices to t
 
 This is a static website and requires no server-side compilation.
 
-1.  git clone \[https://github.com/LaxRaj/csc-317-group-15.git\](https://github.com/LaxRaj/csc-317-group-15.git)
+1.  git clone \[https://github.com/LaxRaj/csc-317-group-15.git\] (https://github.com/LaxRaj/csc-317-group-15.git)
     
 2.  cd csc-317-group-15
     
