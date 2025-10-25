@@ -3,7 +3,7 @@
     - Sets a foundation for consistent, modern design
 */
 :root {
-    --color-primary: #2630f6; 
+    --color-primary: #48db37; 
     --color-secondary: #eea246;
     --color-text: #1a1a1a; 
     --color-light: #f4f4f4; 
@@ -242,14 +242,57 @@ a:hover {
 
 .action-points li {
     background-color: var(--color-white);
-    border: 1px solid var(--color-primary);
-    padding: 1.5rem;
+    border: 3px solid var(--color-primary);
+    padding: 0;
     margin: 0.5rem;
-    border-radius: 8px;
+    border-radius: 50%;
     flex: 1 1 200px; /* Allows cards to wrap nicely */
     text-align: center;
     font-weight: 600;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.action-icon {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    filter: none; /* Keep original image colors */
+}
+
+.action-text {
+    display: none;
+    font-size: 0.9em;
+    line-height: 1.4;
+    padding: 0.5rem;
+}
+
+.action-points li:hover {
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 350px;
+    height: 200px;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+}
+
+.action-points li:hover .action-icon {
+    display: none;
+}
+
+.action-points li:hover .action-text {
+    display: block;
 }
 
 /* -----------------------------------
